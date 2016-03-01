@@ -3,20 +3,20 @@ Run Behat + Mink tests on BrowserStack
 
 ## Steps to run 
 
-Clone this repo:
+1. Clone this repo:
 
-`https://github.com/UmangSardesai/Behat-Mink-BrowserStack.git`
-
-
-Now install Behat, Mink, MinkExtension and their dependencies with composer:
-
-`curl http://getcomposer.org/installer | php`
-
-`php composer.phar install`
-
-Add BrowserStack Username and Automate-key to `behat.yml`
+  `https://github.com/UmangSardesai/Behat-Mink-BrowserStack.git`
 
 
-Now to launch Behat, just run:
+2. Now install Behat, Mink, MinkExtension and their dependencies with composer:
 
-`bin/behat`
+  `curl http://getcomposer.org/installer | php`
+
+  `php composer.phar install`
+
+3. Add BrowserStack Username and Automate-key to `behat.yml`
+
+
+4. Now to launch Behat, just run:
+
+  `bin/behat`
